@@ -18,7 +18,6 @@ class Town(Base):
     __tablename__ = 'town'
     id = Column(Integer, primary_key=True)
     county = Column(String)
-    country_name = Column(String)
     name = Column(String)
     grid_reference = Column(String)
     easting = Column(Integer)
